@@ -77,3 +77,18 @@ margin-bottom: 15px;
     cursor: pointer;
 }
 
+footer{
+    border-top: 1px solid #192646;    
+}
+
+
+@media (max-width: 956px){
+    .container, .container-sobre{
+        flex-direction: column;
+    }
+
+    .container-sobre article{
+        margin-top: 15px;
+        text-align: center;
+    }
+}
